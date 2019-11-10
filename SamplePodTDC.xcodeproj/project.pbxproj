@@ -10,6 +10,16 @@
 		B180B4FD2378473D00616627 /* SamplePodTDC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B180B4F32378473D00616627 /* SamplePodTDC.framework */; };
 		B180B5022378473D00616627 /* SamplePodTDCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B180B5012378473D00616627 /* SamplePodTDCTests.swift */; };
 		B180B5042378473D00616627 /* SamplePodTDC.h in Headers */ = {isa = PBXBuildFile; fileRef = B180B4F62378473D00616627 /* SamplePodTDC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1B676112378484400C5A1DE /* Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B676102378484400C5A1DE /* Presentation.swift */; };
+		B1B6761B237849CA00C5A1DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B6761A237849CA00C5A1DE /* AppDelegate.swift */; };
+		B1B6761D237849CA00C5A1DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B6761C237849CA00C5A1DE /* SceneDelegate.swift */; };
+		B1B6761F237849CA00C5A1DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B6761E237849CA00C5A1DE /* ViewController.swift */; };
+		B1B67622237849CA00C5A1DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B67620237849CA00C5A1DE /* Main.storyboard */; };
+		B1B67624237849CB00C5A1DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B67623237849CB00C5A1DE /* Assets.xcassets */; };
+		B1B67627237849CB00C5A1DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B67625237849CB00C5A1DE /* LaunchScreen.storyboard */; };
+		B1B67632237849CC00C5A1DE /* SamplePodTDCRunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B67631237849CC00C5A1DE /* SamplePodTDCRunTests.swift */; };
+		B1B6763D23784B5F00C5A1DE /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B6763C23784B5F00C5A1DE /* PresentationViewController.swift */; };
+		B1B6763F23784D8D00C5A1DE /* PresentationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B6763E23784D8D00C5A1DE /* PresentationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +30,13 @@
 			remoteGlobalIDString = B180B4F22378473D00616627;
 			remoteInfo = SamplePodTDC;
 		};
+		B1B6762E237849CC00C5A1DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B180B4EA2378473D00616627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1B67617237849CA00C5A1DE;
+			remoteInfo = SamplePodTDCRun;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +46,20 @@
 		B180B4FC2378473D00616627 /* SamplePodTDCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamplePodTDCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B180B5012378473D00616627 /* SamplePodTDCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePodTDCTests.swift; sourceTree = "<group>"; };
 		B180B5032378473D00616627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1B676102378484400C5A1DE /* Presentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentation.swift; sourceTree = "<group>"; };
+		B1B67618237849CA00C5A1DE /* SamplePodTDCRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamplePodTDCRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B6761A237849CA00C5A1DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1B6761C237849CA00C5A1DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B1B6761E237849CA00C5A1DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1B67621237849CA00C5A1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1B67623237849CB00C5A1DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1B67626237849CB00C5A1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1B67628237849CB00C5A1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1B6762D237849CC00C5A1DE /* SamplePodTDCRunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamplePodTDCRunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B67631237849CC00C5A1DE /* SamplePodTDCRunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePodTDCRunTests.swift; sourceTree = "<group>"; };
+		B1B67633237849CC00C5A1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1B6763C23784B5F00C5A1DE /* PresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewController.swift; sourceTree = "<group>"; };
+		B1B6763E23784D8D00C5A1DE /* PresentationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +78,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1B67615237849CA00C5A1DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B6762A237849CC00C5A1DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +100,8 @@
 			children = (
 				B180B4F52378473D00616627 /* SamplePodTDC */,
 				B180B5002378473D00616627 /* SamplePodTDCTests */,
+				B1B67619237849CA00C5A1DE /* SamplePodTDCRun */,
+				B1B67630237849CC00C5A1DE /* SamplePodTDCRunTests */,
 				B180B4F42378473D00616627 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +111,8 @@
 			children = (
 				B180B4F32378473D00616627 /* SamplePodTDC.framework */,
 				B180B4FC2378473D00616627 /* SamplePodTDCTests.xctest */,
+				B1B67618237849CA00C5A1DE /* SamplePodTDCRun.app */,
+				B1B6762D237849CC00C5A1DE /* SamplePodTDCRunTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,8 +120,10 @@
 		B180B4F52378473D00616627 /* SamplePodTDC */ = {
 			isa = PBXGroup;
 			children = (
-				B180B4F62378473D00616627 /* SamplePodTDC.h */,
-				B180B4F72378473D00616627 /* Info.plist */,
+				B1B67613237848CF00C5A1DE /* SampleBlue */,
+				B1B67612237848C200C5A1DE /* SampleRed */,
+				B1B6760F2378482400C5A1DE /* Aplication */,
+				B1B6760D2378480C00C5A1DE /* Core */,
 			);
 			path = SamplePodTDC;
 			sourceTree = "<group>";
@@ -84,6 +135,86 @@
 				B180B5032378473D00616627 /* Info.plist */,
 			);
 			path = SamplePodTDCTests;
+			sourceTree = "<group>";
+		};
+		B1B6760D2378480C00C5A1DE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B1B6760E2378481400C5A1DE /* Presentation */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B1B6760E2378481400C5A1DE /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B1B676102378484400C5A1DE /* Presentation.swift */,
+				B1B6763E23784D8D00C5A1DE /* PresentationViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B1B6760F2378482400C5A1DE /* Aplication */ = {
+			isa = PBXGroup;
+			children = (
+				B180B4F62378473D00616627 /* SamplePodTDC.h */,
+				B180B4F72378473D00616627 /* Info.plist */,
+			);
+			path = Aplication;
+			sourceTree = "<group>";
+		};
+		B1B67612237848C200C5A1DE /* SampleRed */ = {
+			isa = PBXGroup;
+			children = (
+				B1B6763B23784B4B00C5A1DE /* Presentation */,
+			);
+			path = SampleRed;
+			sourceTree = "<group>";
+		};
+		B1B67613237848CF00C5A1DE /* SampleBlue */ = {
+			isa = PBXGroup;
+			children = (
+				B1B6763A23784B4200C5A1DE /* Presentation */,
+			);
+			path = SampleBlue;
+			sourceTree = "<group>";
+		};
+		B1B67619237849CA00C5A1DE /* SamplePodTDCRun */ = {
+			isa = PBXGroup;
+			children = (
+				B1B6761A237849CA00C5A1DE /* AppDelegate.swift */,
+				B1B6761C237849CA00C5A1DE /* SceneDelegate.swift */,
+				B1B6761E237849CA00C5A1DE /* ViewController.swift */,
+				B1B67620237849CA00C5A1DE /* Main.storyboard */,
+				B1B67623237849CB00C5A1DE /* Assets.xcassets */,
+				B1B67625237849CB00C5A1DE /* LaunchScreen.storyboard */,
+				B1B67628237849CB00C5A1DE /* Info.plist */,
+			);
+			path = SamplePodTDCRun;
+			sourceTree = "<group>";
+		};
+		B1B67630237849CC00C5A1DE /* SamplePodTDCRunTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1B67631237849CC00C5A1DE /* SamplePodTDCRunTests.swift */,
+				B1B67633237849CC00C5A1DE /* Info.plist */,
+			);
+			path = SamplePodTDCRunTests;
+			sourceTree = "<group>";
+		};
+		B1B6763A23784B4200C5A1DE /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B1B6763B23784B4B00C5A1DE /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B1B6763C23784B5F00C5A1DE /* PresentationViewController.swift */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +267,41 @@
 			productReference = B180B4FC2378473D00616627 /* SamplePodTDCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B1B67617237849CA00C5A1DE /* SamplePodTDCRun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B67634237849CC00C5A1DE /* Build configuration list for PBXNativeTarget "SamplePodTDCRun" */;
+			buildPhases = (
+				B1B67614237849CA00C5A1DE /* Sources */,
+				B1B67615237849CA00C5A1DE /* Frameworks */,
+				B1B67616237849CA00C5A1DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SamplePodTDCRun;
+			productName = SamplePodTDCRun;
+			productReference = B1B67618237849CA00C5A1DE /* SamplePodTDCRun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1B6762C237849CC00C5A1DE /* SamplePodTDCRunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B67637237849CC00C5A1DE /* Build configuration list for PBXNativeTarget "SamplePodTDCRunTests" */;
+			buildPhases = (
+				B1B67629237849CC00C5A1DE /* Sources */,
+				B1B6762A237849CC00C5A1DE /* Frameworks */,
+				B1B6762B237849CC00C5A1DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1B6762F237849CC00C5A1DE /* PBXTargetDependency */,
+			);
+			name = SamplePodTDCRunTests;
+			productName = SamplePodTDCRunTests;
+			productReference = B1B6762D237849CC00C5A1DE /* SamplePodTDCRunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,9 +314,17 @@
 				TargetAttributes = {
 					B180B4F22378473D00616627 = {
 						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1120;
 					};
 					B180B4FB2378473D00616627 = {
 						CreatedOnToolsVersion = 11.2;
+					};
+					B1B67617237849CA00C5A1DE = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					B1B6762C237849CC00C5A1DE = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = B1B67617237849CA00C5A1DE;
 					};
 				};
 			};
@@ -169,6 +343,8 @@
 			targets = (
 				B180B4F22378473D00616627 /* SamplePodTDC */,
 				B180B4FB2378473D00616627 /* SamplePodTDCTests */,
+				B1B67617237849CA00C5A1DE /* SamplePodTDCRun */,
+				B1B6762C237849CC00C5A1DE /* SamplePodTDCRunTests */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +364,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1B67616237849CA00C5A1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B67627237849CB00C5A1DE /* LaunchScreen.storyboard in Resources */,
+				B1B67624237849CB00C5A1DE /* Assets.xcassets in Resources */,
+				B1B67622237849CA00C5A1DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B6762B237849CC00C5A1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +388,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B6763D23784B5F00C5A1DE /* PresentationViewController.swift in Sources */,
+				B1B676112378484400C5A1DE /* Presentation.swift in Sources */,
+				B1B6763F23784D8D00C5A1DE /* PresentationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +402,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1B67614237849CA00C5A1DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B6761F237849CA00C5A1DE /* ViewController.swift in Sources */,
+				B1B6761B237849CA00C5A1DE /* AppDelegate.swift in Sources */,
+				B1B6761D237849CA00C5A1DE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B67629237849CC00C5A1DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B67632237849CC00C5A1DE /* SamplePodTDCRunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,7 +428,31 @@
 			target = B180B4F22378473D00616627 /* SamplePodTDC */;
 			targetProxy = B180B4FE2378473D00616627 /* PBXContainerItemProxy */;
 		};
+		B1B6762F237849CC00C5A1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1B67617237849CA00C5A1DE /* SamplePodTDCRun */;
+			targetProxy = B1B6762E237849CC00C5A1DE /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1B67620237849CA00C5A1DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1B67621237849CA00C5A1DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1B67625237849CB00C5A1DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1B67626237849CB00C5A1DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B180B5052378473D00616627 /* Debug */ = {
@@ -340,6 +578,7 @@
 		B180B5082378473D00616627 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 64TH9999YT;
@@ -356,6 +595,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = manfro.br.com.SamplePodTDC;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +604,7 @@
 		B180B5092378473D00616627 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 64TH9999YT;
@@ -388,6 +629,7 @@
 		B180B50B2378473D00616627 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64TH9999YT;
 				INFOPLIST_FILE = SamplePodTDCTests/Info.plist;
@@ -406,6 +648,7 @@
 		B180B50C2378473D00616627 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64TH9999YT;
 				INFOPLIST_FILE = SamplePodTDCTests/Info.plist;
@@ -418,6 +661,86 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1B67635237849CC00C5A1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64TH9999YT;
+				INFOPLIST_FILE = SamplePodTDCRun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = manfro.br.com.SamplePodTDCRun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1B67636237849CC00C5A1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64TH9999YT;
+				INFOPLIST_FILE = SamplePodTDCRun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = manfro.br.com.SamplePodTDCRun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1B67638237849CC00C5A1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64TH9999YT;
+				INFOPLIST_FILE = SamplePodTDCRunTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = manfro.br.com.SamplePodTDCRunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SamplePodTDCRun.app/SamplePodTDCRun";
+			};
+			name = Debug;
+		};
+		B1B67639237849CC00C5A1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64TH9999YT;
+				INFOPLIST_FILE = SamplePodTDCRunTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = manfro.br.com.SamplePodTDCRunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SamplePodTDCRun.app/SamplePodTDCRun";
 			};
 			name = Release;
 		};
@@ -447,6 +770,24 @@
 			buildConfigurations = (
 				B180B50B2378473D00616627 /* Debug */,
 				B180B50C2378473D00616627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B67634237849CC00C5A1DE /* Build configuration list for PBXNativeTarget "SamplePodTDCRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B67635237849CC00C5A1DE /* Debug */,
+				B1B67636237849CC00C5A1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B67637237849CC00C5A1DE /* Build configuration list for PBXNativeTarget "SamplePodTDCRunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B67638237849CC00C5A1DE /* Debug */,
+				B1B67639237849CC00C5A1DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
