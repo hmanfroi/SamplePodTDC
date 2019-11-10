@@ -1,13 +1,13 @@
 //
 //  AppDelegate.swift
-//  SamplePodTDCRun
+//  SamplePodTDCRunBlue
 //
 //  Created by Henrique Manfroi da Silveira on 10/11/19.
 //  Copyright © 2019 Henrique Manfroi da Silveira. All rights reserved.
 //
 
 import UIKit
-import SamplePodTDC
+import SamplePodTDCBlue
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -29,4 +29,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
-
