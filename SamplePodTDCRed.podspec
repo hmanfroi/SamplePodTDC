@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.authors   = { 'Henrique' => 'hmanfroi@hotmail.com.br' }
 
   # 5
-  s.homepage  = 'https://https://github.com/hmanfroi/SamplePodTDC'
+  s.homepage  = 'https://github.com/hmanfroi/SamplePodTDC'
 
   # 6
   s.source    = { :git => 'ssh://git@github.com/hmanfroi/SamplePodTDC.git', :tag => "Red#{s.version}" }
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
     "SamplePodTDC/Aplication/**/*.{swift}",
     "SamplePodTDC/SampleRed/**/*.{swift}"
   ]
-  s.public_header_files = '*.h'
+  s.public_header_files = 'SamplePodTDC/Aplication/*.h'
 
   # 9
   # s.resources = ["#{s.name}/**/*.{png}", "#{s.name}/**/*.{xcassets}", "#{s.name}/**/*.{storyboard}", "#{s.name}/**/*.{xib}", "#{s.name}/**/*.{strings}"]
