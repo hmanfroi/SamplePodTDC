@@ -29,7 +29,7 @@ public class PresentationViewController: UIViewController {
     
     // MARK: Initializers
     
-    init(viewModel: PresentationViewModel) {
+    public init(viewModel: PresentationViewModel) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }

@@ -16,7 +16,7 @@ public class PresentationViewModel {
     
     // MARK: Initializers
     
-    init(presentation: Presentation) {
+    public init(presentation: Presentation) {
         self.presentation = presentation
     }
     

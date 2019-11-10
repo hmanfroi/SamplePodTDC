@@ -14,4 +14,9 @@ public struct Presentation {
     
     var title: String = ""
     var authors: [String] = []
+    
+    public init(title: String, authors: [String]) {
+        self.title = title
+        self.authors = authors
+    }
 }
