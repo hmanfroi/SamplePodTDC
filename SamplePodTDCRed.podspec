@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
     "SamplePodTDC/Aplication/**/*.{swift}",
     "SamplePodTDC/SampleRed/**/*.{swift}"
   ]
-  s.public_header_files = 'SamplePodTDC/Aplication/*.h'
+  s.public_header_files = '*.h'
 
   # 9
   # s.resources = ["#{s.name}/**/*.{png}", "#{s.name}/**/*.{xcassets}", "#{s.name}/**/*.{storyboard}", "#{s.name}/**/*.{xib}", "#{s.name}/**/*.{strings}"]

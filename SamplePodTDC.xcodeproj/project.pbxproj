@@ -181,9 +181,10 @@
 		B180B4F52378473D00616627 /* SamplePodTDC */ = {
 			isa = PBXGroup;
 			children = (
+				B180B4F72378473D00616627 /* Info.plist */,
+				B180B4F62378473D00616627 /* SamplePodTDC.h */,
 				B1B67613237848CF00C5A1DE /* SampleBlue */,
 				B1B67612237848C200C5A1DE /* SampleRed */,
-				B1B6760F2378482400C5A1DE /* Aplication */,
 				B1B6760D2378480C00C5A1DE /* Core */,
 			);
 			path = SamplePodTDC;
@@ -213,15 +214,6 @@
 				B1B6763E23784D8D00C5A1DE /* PresentationViewModel.swift */,
 			);
 			path = Presentation;
-			sourceTree = "<group>";
-		};
-		B1B6760F2378482400C5A1DE /* Aplication */ = {
-			isa = PBXGroup;
-			children = (
-				B180B4F62378473D00616627 /* SamplePodTDC.h */,
-				B180B4F72378473D00616627 /* Info.plist */,
-			);
-			path = Aplication;
 			sourceTree = "<group>";
 		};
 		B1B67612237848C200C5A1DE /* SampleRed */ = {
@@ -798,7 +790,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SamplePodTDC/Aplication/Info.plist;
+				INFOPLIST_FILE = SamplePodTDC/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -825,7 +817,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SamplePodTDC/Aplication/Info.plist;
+				INFOPLIST_FILE = SamplePodTDC/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -969,7 +961,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "SamplePodTDC copy-Info.plist";
+				INFOPLIST_FILE = SamplePodTDC/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -996,7 +988,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "SamplePodTDC copy-Info.plist";
+				INFOPLIST_FILE = SamplePodTDC/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
