@@ -28,7 +28,7 @@ class SamplePodTDCBlueTests: XCTestCase {
     }
 
     func testBackgroundColor() {
-        XCTAssert(vc?.view.backgroundColor == UIColor.red)
+        XCTAssert(vc?.view.backgroundColor == UIColor.blue)
     }
 
     func testVm() {

@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B179CF6D238B26DE003AFF0E /* SamplePodTDCRedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B179CF6B238B26DE003AFF0E /* SamplePodTDCRedTests.swift */; };
+		B179CF6E238B26DF003AFF0E /* SamplePodTDCBlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B179CF6C238B26DE003AFF0E /* SamplePodTDCBlueTests.swift */; };
 		B180B4FD2378473D00616627 /* SamplePodTDCRed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B180B4F32378473D00616627 /* SamplePodTDCRed.framework */; };
-		B180B5022378473D00616627 /* SamplePodTDCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B180B5012378473D00616627 /* SamplePodTDCTests.swift */; };
 		B180B5042378473D00616627 /* SamplePodTDC.h in Headers */ = {isa = PBXBuildFile; fileRef = B180B4F62378473D00616627 /* SamplePodTDC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1B676112378484400C5A1DE /* Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B676102378484400C5A1DE /* Presentation.swift */; };
 		B1B6761B237849CA00C5A1DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B6761A237849CA00C5A1DE /* AppDelegate.swift */; };
@@ -28,6 +29,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B179CF6F238B26EE003AFF0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B180B4EA2378473D00616627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1B676652378800000C5A1DE;
+			remoteInfo = SamplePodTDCBlue;
+		};
 		B180B4FE2378473D00616627 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B180B4EA2378473D00616627 /* Project object */;
@@ -66,11 +74,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B179CF6A238B26DE003AFF0E /* SamplePodTDCTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SamplePodTDCTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		B179CF6B238B26DE003AFF0E /* SamplePodTDCRedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamplePodTDCRedTests.swift; sourceTree = "<group>"; };
+		B179CF6C238B26DE003AFF0E /* SamplePodTDCBlueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamplePodTDCBlueTests.swift; sourceTree = "<group>"; };
 		B180B4F32378473D00616627 /* SamplePodTDCRed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SamplePodTDCRed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B180B4F62378473D00616627 /* SamplePodTDC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamplePodTDC.h; sourceTree = "<group>"; };
 		B180B4F72378473D00616627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B180B4FC2378473D00616627 /* SamplePodTDCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamplePodTDCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B180B5012378473D00616627 /* SamplePodTDCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePodTDCTests.swift; sourceTree = "<group>"; };
 		B180B5032378473D00616627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1B676102378484400C5A1DE /* Presentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentation.swift; sourceTree = "<group>"; };
 		B1B67618237849CA00C5A1DE /* SamplePodTDCRunRed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamplePodTDCRunRed.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,8 +203,10 @@
 		B180B5002378473D00616627 /* SamplePodTDCTests */ = {
 			isa = PBXGroup;
 			children = (
-				B180B5012378473D00616627 /* SamplePodTDCTests.swift */,
+				B179CF6C238B26DE003AFF0E /* SamplePodTDCBlueTests.swift */,
+				B179CF6B238B26DE003AFF0E /* SamplePodTDCRedTests.swift */,
 				B180B5032378473D00616627 /* Info.plist */,
+				B179CF6A238B26DE003AFF0E /* SamplePodTDCTests-Bridging-Header.h */,
 			);
 			path = SamplePodTDCTests;
 			sourceTree = "<group>";
@@ -339,6 +351,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B179CF70238B26EE003AFF0E /* PBXTargetDependency */,
 				B180B4FF2378473D00616627 /* PBXTargetDependency */,
 			);
 			name = SamplePodTDCTests;
@@ -452,6 +465,7 @@
 					};
 					B180B4FB2378473D00616627 = {
 						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1120;
 					};
 					B1B67617237849CA00C5A1DE = {
 						CreatedOnToolsVersion = 11.2;
@@ -564,7 +578,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B180B5022378473D00616627 /* SamplePodTDCTests.swift in Sources */,
+				B179CF6D238B26DE003AFF0E /* SamplePodTDCRedTests.swift in Sources */,
+				B179CF6E238B26DF003AFF0E /* SamplePodTDCBlueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +628,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B179CF70238B26EE003AFF0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1B676652378800000C5A1DE /* SamplePodTDCBlue */;
+			targetProxy = B179CF6F238B26EE003AFF0E /* PBXContainerItemProxy */;
+		};
 		B180B4FF2378473D00616627 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B180B4F22378473D00616627 /* SamplePodTDCRed */;
@@ -837,6 +857,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64TH9999YT;
 				INFOPLIST_FILE = SamplePodTDCTests/Info.plist;
@@ -847,6 +868,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = manfro.br.com.SamplePodTDCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SamplePodTDCTests/SamplePodTDCTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -856,6 +879,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64TH9999YT;
 				INFOPLIST_FILE = SamplePodTDCTests/Info.plist;
@@ -866,6 +890,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = manfro.br.com.SamplePodTDCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SamplePodTDCTests/SamplePodTDCTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
