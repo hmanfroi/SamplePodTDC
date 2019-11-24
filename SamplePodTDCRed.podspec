@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.swift_version         = '5.1.0'
   s.name                  = 'SamplePodTDCRed'
-  s.summary               = 'All Agreements Sicredi are wrote down here.'
+  s.summary               = 'Sample for presentation'
 
   # 2
   s.version = '0.0.1'
@@ -20,7 +20,10 @@ Pod::Spec.new do |s|
   s.homepage  = 'https://github.com/hmanfroi/SamplePodTDC'
 
   # 6
-  s.source    = { :git => 'ssh://git@github.com/hmanfroi/SamplePodTDC.git', :tag => "Red#{s.version}" }
+  s.source    = { 
+    :git => 'ssh://git@github.com/hmanfroi/SamplePodTDC.git',
+    :tag => "Red#{s.version}"
+   }
 
   # 7
   s.ios.framework = 'UIKit'

@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.swift_version         = '5.1.0'
   s.name                  = 'SamplePodTDCBlue'
-  s.summary               = 'All Agreements Sicredi are wrote down here.'
+  s.summary               = 'Sample for TDC'
 
   # 2
   s.version = '0.0.1'
